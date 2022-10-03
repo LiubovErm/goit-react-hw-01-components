@@ -7,7 +7,7 @@ export const ProfileBox = styled.div`
   margin: 20px auto 0 auto;
   max-width: 250px;
   padding: ${props => props.theme.space[3]}px;
-  background-color: ${props => props.theme.colors.grey};
+  background-color: ${props => props.theme.colors.lightGrey};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 `;
 
