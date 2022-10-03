@@ -7,6 +7,7 @@ import {
   InfoText,
   StatsList,
   StatsItem,
+  StatsText,
 } from './Profile.styled';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
@@ -20,16 +21,16 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </UserBox>
       <StatsList>
         <StatsItem>
-          <span>Followers</span>
-          <span>{stats.followers}</span>
+          <StatsText>Followers</StatsText>
+          <StatsText>{stats.followers}</StatsText>
         </StatsItem>
         <StatsItem>
-          <span>Views</span>
-          <span>{stats.views}</span>
+          <StatsText>Views</StatsText>
+          <StatsText>{stats.views}</StatsText>
         </StatsItem>
         <StatsItem>
-          <span>Likes</span>
-          <span>{stats.likes}</span>
+          <StatsText>Likes</StatsText>
+          <StatsText>{stats.likes}</StatsText>
         </StatsItem>
       </StatsList>
     </ProfileBox>
