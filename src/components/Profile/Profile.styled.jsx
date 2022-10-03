@@ -44,3 +44,7 @@ export const StatsItem = styled.li`
   padding: ${props => props.theme.space[3]}px;
   outline: 1px solid #B0B9B3;
 `;
+
+export const StatsText = styled.span`
+  font-size: ${props => props.theme.fontSizes.s};
+`;
