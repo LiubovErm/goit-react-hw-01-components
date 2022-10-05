@@ -18,7 +18,6 @@ export const FriendsItem = styled.li`
   margin-bottom: ${props => props.theme.space[4]}px;
   border-radius: ${props => props.theme.radii.normal};
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
-  }
 `;
 
 export const FriendStatus = styled.span`
@@ -35,6 +34,6 @@ export const FriendImg = styled.img`
 `;
 
 export const FriendName = styled.p`
-  font-size: ${props => props.theme.fontSizes.l};
+  font-size: ${props => props.theme.fontSizes.m};
   color: ${props => props.theme.colors.text};
 `;
