@@ -36,6 +36,9 @@ export const theme = {
     none: 'none',
     normal: '1px solid',
   },
+  shadows: {
+    normal: '0 0 10px rgba(0, 0, 0, 0.5)',
+  },
   radii: {
     none: '0',
     normal: '8px',

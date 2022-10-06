@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { getRandomHexColor } from '../../utils/getRandomColor';
 
-export const StatisticsBox = styled.section`
-  max-width: 350px;
-  margin: 20px auto 0 auto;
-  background-color: ${props => props.theme.colors.lightGrey};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-`;
+// export const StatisticsBox = styled.section`
+//   max-width: 350px;
+//   margin: 20px auto 0 auto;
+//   background-color: ${props => props.theme.colors.lightGrey};
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+// `;
 export const StatisticsTitle = styled.h2`
   text-transform: uppercase;
   text-align: center;

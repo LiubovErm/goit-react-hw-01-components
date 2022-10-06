@@ -8,7 +8,7 @@ export const ProfileBox = styled.div`
   max-width: 250px;
   padding: ${props => props.theme.space[3]}px;
   background-color: ${props => props.theme.colors.lightGrey};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: ${props => props.theme.shadows.normal};
 `;
 
 export const UserBox = styled.div`
