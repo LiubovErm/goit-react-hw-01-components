@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import {
-    // StatisticsBox,
     StatisticsTitle,
     StatisticsList,
     StatisticsItem,
@@ -29,6 +28,7 @@ Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.arrayOf(
       PropTypes.shape({
+        id: PropTypes.string.isRequired,
         label: PropTypes.string.isRequired,
         percentage: PropTypes.number.isRequired,
       })

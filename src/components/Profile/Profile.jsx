@@ -9,7 +9,7 @@ import {
   StatsText,
 } from './Profile.styled';
 
-export const Profile = ({ username, tag, location, avatar, stats }) => {
+export const Profile = ({ username, tag, location, avatar, stats: { followers, views, likes } }) => {
     return (
     <ProfileBox>
       <UserBox>
@@ -21,15 +21,15 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       <StatsList>
         <StatsItem>
           <StatsText>Followers</StatsText>
-          <StatsText>{stats.followers}</StatsText>
+          <StatsText>{followers}</StatsText>
         </StatsItem>
         <StatsItem>
           <StatsText>Views</StatsText>
-          <StatsText>{stats.views}</StatsText>
+          <StatsText>{views}</StatsText>
         </StatsItem>
         <StatsItem>
           <StatsText>Likes</StatsText>
-          <StatsText>{stats.likes}</StatsText>
+          <StatsText>{likes}</StatsText>
         </StatsItem>
       </StatsList>
     </ProfileBox>
